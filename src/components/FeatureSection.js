@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeatureSection = () => {
   return (
-    <div className="container mx-auto bg-gray-50 py-4">
+    <div className="container mx-auto py-4">
         <div className="relative">
             <h2 className="text-3xl font-semibold">Collaborate without<br/> constraints</h2>
         </div>
