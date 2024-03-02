@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
+.rating-para{
+    font-size: 9px;
+}
+.svg-link{
+    float: right;
+}
 @tailwind utilities;
