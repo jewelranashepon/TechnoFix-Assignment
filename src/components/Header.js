@@ -43,7 +43,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="flex justify-end">
+        <div className="flex">
           <div>
             <ul className="flex space-x-5">
               <li className="flex items-center gap-0">

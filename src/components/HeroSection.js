@@ -7,7 +7,7 @@ import '../input.css';
 const HeroSection = () => {
   return (
     <>
-    <div className="container mx-auto p-8 ">
+    <div className="container mx-auto my-5">
          <div class="grid grid-cols-5 gap-2">
             <div class="col-span-2">
                 <h1 className="font-bold text-4xl text-left">Take ideas from better to best</h1>
