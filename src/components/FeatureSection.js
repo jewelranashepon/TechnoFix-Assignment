@@ -7,7 +7,7 @@ const FeatureSection = () => {
             <h2 className="text-3xl font-semibold">Collaborate without<br/> constraints</h2>
         </div>
 
-        <div className="grid grid-cols-3 gap-8 mt-4">
+        <div className="grid grid-cols-3 gap-8 my-8">
             <div className="justify-start p-3">
                 <h2 className="text-xl font-semibold text-start mb-2">Free forever</h2>
                 <p className="text-start text-sm">Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates.
