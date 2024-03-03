@@ -1,18 +1,16 @@
 import React from 'react';
-import '../output.css';
+import '../input.css';
 import { RiArrowDownSLine } from "react-icons/ri";
 import { TbWorld } from "react-icons/tb";
-import { FaArrowRightLong } from "react-icons/fa6";
-
-
 
 
 const Header = () => {
   return (
     <>
     <nav className="bg-gray-100 p-4">
-      <div className="container flex justify-between">
-        <div className="flex">
+      <div className="flex justify-between">
+        {/* left section of navbar */}
+        <div className="flex justify-start">
           <div className="w-16 h-6">
               <img src="logo.png" alt="logo"/>
           </div>
@@ -43,8 +41,8 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="flex">
-          <div>
+        {/* Right section of navbar */}
+        <div className="flex justify-end">
             <ul className="flex space-x-5">
               <li className="flex items-center gap-0">
               <TbWorld  className="text-xl"/>
@@ -66,15 +64,9 @@ const Header = () => {
               </button>
               </li>
             </ul>
-
-
-          </div>
-
-        </div>
-        
+          </div>        
       </div>
     </nav>
-   
 
     </>
   )

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactStars from 'react-stars';
-import { render } from 'react-dom';
 import '../input.css';
+
 
 
 const HeroSection = () => {

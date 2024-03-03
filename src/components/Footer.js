@@ -1,4 +1,5 @@
 import React from 'react';
+import '../input.css';
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";

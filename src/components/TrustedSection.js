@@ -1,13 +1,10 @@
 import React from 'react';
+import '../input.css';
 import { SiWalmart } from "react-icons/si";
 import { SiCisco } from "react-icons/si";
 import { SiVolvo } from "react-icons/si";
 import { FaApple } from "react-icons/fa";
 import { SiSamsung } from "react-icons/si";
-
-
-
-
 
 
 const TrustedSection = () => {

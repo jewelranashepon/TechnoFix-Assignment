@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaFigma } from "react-icons/fa6";
+import '../input.css';
+
 
 
 

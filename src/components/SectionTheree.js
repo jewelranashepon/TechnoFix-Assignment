@@ -1,4 +1,6 @@
 import React from 'react';
+import '../input.css';
+
 
 const SectionTheree = () => {
 const imageUrl = 'back3.png'; // Replace this with your image URL
