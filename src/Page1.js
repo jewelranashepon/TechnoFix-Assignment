@@ -7,18 +7,22 @@ import SectionOne from './components/SectionOne'
 import SectionTwo from './components/SectionTwo'
 import SectionTheree from './components/SectionTheree'
 import SectionFour from './components/SectionFour'
+import SectionFive from './components/SectionFive'
 
 const Page1 = () => {
   return (
     <>
-    <Header/>
-    <HeroSection/>
-    <TrustedSection/>
-    <FeatureSection/>
-    <SectionOne/>
-    <SectionTwo/>
-    <SectionTheree/>
-    <SectionFour/>
+    <div className="space-y-10">
+      <Header/>
+      <HeroSection/>
+      <TrustedSection/>
+      <FeatureSection/>
+      <SectionOne/>
+      <SectionTwo/>
+      <SectionTheree/>
+      <SectionFour/>
+      <SectionFive/>
+    </div>
         
     </>
   )
