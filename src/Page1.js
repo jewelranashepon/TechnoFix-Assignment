@@ -4,6 +4,8 @@ import HeroSection from './components/HeroSection'
 import TrustedSection from './components/TrustedSection'
 import FeatureSection from './components/FeatureSection'
 import SectionOne from './components/SectionOne'
+import SectionTwo from './components/SectionTwo'
+import SectionTheree from './components/SectionTheree'
 
 const Page1 = () => {
   return (
@@ -13,6 +15,8 @@ const Page1 = () => {
     <TrustedSection/>
     <FeatureSection/>
     <SectionOne/>
+    <SectionTwo/>
+    <SectionTheree/>
         
     </>
   )
