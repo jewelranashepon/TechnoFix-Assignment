@@ -8,6 +8,7 @@ import SectionTwo from './components/SectionTwo'
 import SectionTheree from './components/SectionTheree'
 import SectionFour from './components/SectionFour'
 import SectionFive from './components/SectionFive'
+import SectionSix from './components/SectionSix'
 
 const Page1 = () => {
   return (
@@ -22,6 +23,7 @@ const Page1 = () => {
       <SectionTheree/>
       <SectionFour/>
       <SectionFive/>
+      <SectionSix/>
     </div>
         
     </>
