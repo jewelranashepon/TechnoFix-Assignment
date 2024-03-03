@@ -5,7 +5,7 @@ import '../input.css';
 const FeatureSection = () => {
   return (
     <div className="container mx-auto py-4">
-        <div className="relative">
+        <div>
             <h2 className="text-3xl font-semibold">Collaborate without<br/> constraints</h2>
         </div>
 
@@ -32,9 +32,12 @@ const FeatureSection = () => {
                 at our Trust Center .
                 </p>
             </div>
-
         </div>
-        
+
+        <a href="#" className="bg-blue-500 hover:bg-blue-700 rounded-3xl text-white font-semibold py-1 px-4">
+            Sign up free →
+        </a>
+
     </div>
   )
 }

@@ -18,7 +18,6 @@ const SectionOne = () => {
             <div className="w-full h-full object-cover">
                 <img src="hybridwork.png" alt="hybrid-work" />
             </div>
-
         </div>
         
     </div>
