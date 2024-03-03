@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SectionTwo = () => {
   return (
@@ -15,7 +15,7 @@ const SectionTwo = () => {
                     Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom,
                     Miro has 100+ integrations with tools you already use and love.
                 </p>
-                <a href="#" className="grid justify-items-start mt-10 underline text-blue-600">Learn More</a>
+                <a href="#" className="grid justify-items-start mt-10 text-blue-600">Learn More →</a>
             </div>
 
         </div>

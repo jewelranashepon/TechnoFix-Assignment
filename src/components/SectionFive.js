@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { FaFigma } from "react-icons/fa6";
 
 
@@ -41,9 +40,8 @@ const SectionFive = () => {
                 </ul>
 
                 <div className="mt-8">
-                  <a href="#" className="flex items-center gap-1 underline text-blue-600 hover:text-green-500">
-                    Learn more
-                    <MdOutlineArrowRightAlt/>
+                  <a href="#" className="flex items-center gap-1  text-blue-600 hover:text-green-500">
+                    Learn more →
                   </a>
                 </div>  
 

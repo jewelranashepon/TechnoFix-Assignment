@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SectionOne = () => {
   return (
@@ -10,7 +10,7 @@ const SectionOne = () => {
                     In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate,
                     and co-create in one space no matter where you are.
                 </p>
-                <a href="#" className="grid justify-items-start mt-10 underline text-blue-600">Learn More</a>
+                <a href="#" className="grid justify-items-start mt-10  text-blue-600">Learn More →</a>
             </div>
 
             <div className="w-full h-full object-cover">

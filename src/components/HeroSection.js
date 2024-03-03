@@ -16,8 +16,8 @@ const HeroSection = () => {
                     <input type="email" 
                         class="appearance-none border border-solid border-gray-600 rounded-3xl py-1 px-4 text-gray-700 leading-tight focus:outline-none focus:border-blue-500" 
                         placeholder="Enter your work email"/>
-                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 rounded-3xl text-white font-bold py-1 px-4">
-                        Sign up free
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 rounded-3xl text-white font-semibold py-1 px-4">
+                    Sign up free →
                      </button>
                 </form>
 

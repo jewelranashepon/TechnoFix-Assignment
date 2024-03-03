@@ -61,8 +61,8 @@ const Header = () => {
                 <a href="#" className="hover:text-gray-500">Login</a>
               </li>
               <li className="flex items-center gap-1">
-              <button class="flex  gap-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded-2xl">
-                 Sign up free <span className="justify-items-center"><FaArrowRightLong /></span>
+              <button class="flex  gap-2 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-1 px-4 rounded-2xl">
+                 Sign up free →
               </button>
               </li>
             </ul>

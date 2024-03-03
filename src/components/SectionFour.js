@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 
 const SectionFour = () => {
@@ -28,9 +27,8 @@ const SectionFour = () => {
                  videos, drawing capabilities — the list goes on.
                 </p>
                 <div className="mt-6">
-                  <a href="#" className="flex items-center gap-1 underline text-blue-600 hover:text-green-500">
-                    Learn more
-                    <MdOutlineArrowRightAlt/>
+                  <a href="#" className="flex items-center gap-1 text-blue-600 hover:text-green-500">
+                    Learn more →
                   </a>
                 </div>  
             </div>

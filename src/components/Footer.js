@@ -7,7 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-footer-color mt-20">
+    <footer className="bg-footer-color mt-20 py-12">
     <div className="container mx-auto">
         <div className="grid grid-cols-9 text-left py-12 gap-16">
             <div className="col-span-3">
@@ -103,10 +103,16 @@ const Footer = () => {
                     </div>   
 
                 </div>
-                        
-
             </div>
 
+        </div>
+
+        <div>
+            <p className="w-3/5 text-white text-left mask-p">
+            Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other
+            countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play
+            logo are trademarks of Google LLC.
+            </p>
         </div>
     </div>               
     </footer>

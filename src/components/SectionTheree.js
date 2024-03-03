@@ -11,7 +11,7 @@ const imageUrl = 'back3.png'; // Replace this with your image URL
                 <h1 className="font-semibold text-xl mb-2">The Way We Work</h1>
                 <p className="text-md mb-2">How has our relationship with work changed?</p>
                 <button type="submit" class="bg-blue-500 hover:bg-blue-700 rounded-3xl text-white  py-1 px-4">
-                    View the report
+                    View the report →
                 </button>
             </div>
         </div>
