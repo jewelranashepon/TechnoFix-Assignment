@@ -79,17 +79,28 @@ const Footer = () => {
             <div className="col-span-4">
                 <div className="w-full h-52 m-2 rounded-3xl bg-footer-list-color relative">
                     <img src="path.svg" alt="mark-image" className="object-cover h-full absolute right-32"/>
-                    <div className="relative left-10 top-6 right-10">
-                        <div className="object-cover">
-                            <h2>Sign up to our newsletter</h2>
+                    <div className="relative w-3/5 top-8 left-16">
+                        <div className="space-y-2">
+                            <h2 className="font-semibold text-xl">Sign up to our newsletter</h2>
                             <p className="mask-p">
                                 Receive the latest mobile security news, exclusive discounts & offers straight
                                 to your inbox!
                             </p>
 
-                        </div>
-                        
+                        </div>  
                     </div>
+
+                    <div className="relative w-3/4 top-12 left-16">
+                        <form className="flex">
+                            <input type="email" 
+                                class="appearance-none border border-solid border-gray-600 rounded-3xl rounded-tr-none rounded-br-none py-1  px-2 text-gray-700 leading-tight focus:outline-none focus:border-blue-500" 
+                                placeholder="Enter your work email"/>
+
+                            <button type="submit" class="bg-footer-submit-color hover:bg-blue-700 rounded-3xl rounded-tl-none rounded-bl-none text-white py-1 px-2">
+                                Sign up free
+                            </button>
+                        </form>
+                    </div>   
 
                 </div>
                         

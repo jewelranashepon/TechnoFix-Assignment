@@ -6,6 +6,8 @@ module.exports = {
       colors: {
         'footer-color': '#02033B',
         'footer-list-color': '#FFC247',
+        'footer-submit-color': '#02033B',
+
       },
       
     },
