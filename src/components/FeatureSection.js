@@ -6,11 +6,11 @@ const FeatureSection = () => {
   return (
     <div className="container mx-auto py-4">
         <div>
-            <h2 className="text-3xl font-semibold">Collaborate without<br/> constraints</h2>
+            <h2 className="text-3xl font-semibold max-sm:text-2xl">Collaborate without<br/> constraints</h2>
         </div>
 
-        <div className="grid grid-cols-3 gap-8 my-8">
-            <div className="justify-start p-3">
+        <div className="grid grid-cols-3 gap-8 my-8 max-sm:grid-cols-1 p-2 max-sm:my-4 max-sm:gap-3">
+            <div className="justify-start">
                 <h2 className="text-xl font-semibold text-start mb-2">Free forever</h2>
                 <p className="text-start text-sm">Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates.
                     Signing up with your work email lets you bring in your team faster. See our pricing plans

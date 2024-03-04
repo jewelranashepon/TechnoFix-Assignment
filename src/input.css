@@ -12,4 +12,7 @@
 .svg-link{
     float: right;
 }
+.menu-p{
+    font-size: 8px;
+}
 @tailwind utilities;
