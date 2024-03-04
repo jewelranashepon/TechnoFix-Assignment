@@ -10,7 +10,7 @@ const HeroSection = () => {
     <div className="container mx-auto my-5">
          <div class="grid grid-cols-5 gap-2 max-sm:flex max-sm:flex-col">
             <div class="col-span-2">
-                <h1 className="font-bold text-4xl text-left max-sm:text-center max-sm:text-2xl">Take ideas from better to best</h1>
+                <h1 className="font-bold text-4xl text-left max-sm:text-center max-sm:text-xl">Take ideas from better to best</h1>
                 <p className="py-3 text-sm text-left max-sm:text-center max-sm:px-6">Miro is your team's visual platform to connect, collaborate, and create — together.</p>
                 <div className="max-sm:flex max-sm:justify-center">
                 <form className="grid grid-cols-1 gap-3 py-3 max-sm:w-60">
