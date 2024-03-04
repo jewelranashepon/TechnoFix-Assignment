@@ -37,7 +37,7 @@ const SectionSix = () => {
                     product designers whose projects are in different tools.”
                 </p>
 
-                <div className="flex gap-3 mt-20 max-sm:mt-4">
+                <div className="flex gap-3 mt-16 max-sm:mt-4">
                     <img src="mask2.png" className="h-14 w-14"/>
                     <div className="text-left text-sm">
                         <h5 className="mask-h">Jane Ashley</h5>

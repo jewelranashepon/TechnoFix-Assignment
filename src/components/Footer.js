@@ -9,7 +9,7 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-footer-color mt-20 py-12 max-sm:py-1">
-    <div className="container mx-auto">
+    <div className="container mx-auto max-sm:pb-8">
         <div className="grid grid-cols-9 text-left py-12 gap-16 max-sm:grid-cols-1 max-sm:p-8 max-sm:gap-6">
             <div className="col-span-3">
                 <h2 className="text-white font-semibold text-lg">Scan. Detect. Remove.</h2>
@@ -78,9 +78,9 @@ const Footer = () => {
             </div>
 
             <div className="col-span-4">
-                <div className="w-full h-52 m-2 rounded-3xl bg-footer-list-color relative">
-                    <img src="path.svg" alt="mark-image" className="object-cover h-full absolute right-32 max-sm:right-20"/>
-                    <div className="relative w-3/5 top-8 left-16 max-sm:top-4">
+                <div className="w-full h-56 m-2 rounded-3xl bg-footer-list-color relative">
+                    <img src="path.svg" alt="mark-image" className="object-cover h-full absolute right-32 max-sm:right-20 max-md:right-12"/>
+                    <div className="relative w-3/5 top-8 left-16 max-sm:top-4 max-md:top-2">
                         <div className="space-y-2 max-sm:space-y-0">
                             <h2 className="font-semibold text-xl max-sm:text-lg">Sign up to our newsletter</h2>
                             <p className="mask-p">
@@ -91,13 +91,13 @@ const Footer = () => {
                         </div>  
                     </div>
 
-                    <div className="relative w-3/4 top-12 left-16 max-sm:top-6">
-                        <form className="flex max-sm:grid max-sm:gap-1">
+                    <div className="relative w-3/4 top-12 left-16 max-sm:top-6 max-md:top-4 ">
+                        <form className="flex max-md:grid max-md:gap-1">
                             <input type="email" 
-                                class="appearance-none border border-solid border-gray-600 rounded-3xl rounded-tr-none rounded-br-none py-1  px-2 text-gray-700 leading-tight focus:outline-none focus:border-blue-500 max-sm:rounded-full" 
+                                class="appearance-none border border-solid border-gray-600 rounded-3xl rounded-tr-none rounded-br-none py-1  px-2 text-gray-700 leading-tight focus:outline-none focus:border-blue-500 max-md:rounded-full" 
                                 placeholder="Enter your work email"/>
 
-                            <button type="submit" class="bg-footer-submit-color hover:bg-blue-700 rounded-3xl rounded-tl-none rounded-bl-none text-white py-1 px-2 max-sm:rounded-full">
+                            <button type="submit" class="bg-footer-submit-color hover:bg-blue-700 rounded-3xl rounded-tl-none rounded-bl-none text-white py-1 px-2 max-md:rounded-full">
                                 Sign up free
                             </button>
                         </form>
